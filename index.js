@@ -33,4 +33,4 @@ client.on('message', message => {
 	}
 });
 
-client.logit remote -v  n(token);
+client.login(token);
