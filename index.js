@@ -14,7 +14,8 @@ for (const file of commandFiles) {
 
 client.once('ready', () => {
 	console.log('Ready!');
-	client.user.setActivity("Being coded");
+	client.user.setActivity("Playing j help");
+	// If you want to change what the bot is playing replace the words under client.user.setActivity
 });
 
 client.on('message', message => {
@@ -29,7 +30,7 @@ client.on('message', message => {
 		client.commands.get(command).execute(message, args);
 	} catch (error) {
 		console.error(error);
-		message.reply('there was an error trying to execute that command!');
+		message.reply('I ran into a problem while trying to run this command. Please report the issue in the github!');
 	}
 });
 
