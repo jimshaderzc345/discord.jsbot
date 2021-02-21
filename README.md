@@ -1,2 +1,3 @@
-    This is a discord.js bot made by me with my own code. I am working on this bot for fun and I decided to make it public on github to help people that are new to discord.js. I am working on making this bot with more commands. To run the bot after you make your config file, run "npm install" and then "node index.js".# discord.js-starter-bot
+This is a bot made using discord.js by me. This is a simple discord.js bot that is good for many servers. I decided to make this public to help people that are new to discord.js. Your welcome to copy commands from my code into your own bot! 
 
+Note: at the time, hosting this bot on heroku will not work. I am working on making the bot compatible with heroku.
