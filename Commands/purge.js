@@ -16,3 +16,4 @@ module.exports = {
 		});
 	},
 };
+// There is no way to make it purge more then 99 messages unless you change the code entirely.

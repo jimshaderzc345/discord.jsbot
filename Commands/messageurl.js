@@ -5,3 +5,5 @@ module.exports = {
 		message.channel.send(`${message.url}`);
 	},
 };
+
+// This command is not that important, just a random fun command.
