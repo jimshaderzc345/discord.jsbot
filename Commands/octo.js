@@ -1,6 +1,6 @@
 module.exports = {
 	name: 'octo',
-	description: 'Sends the invite link for Octo (a discord bot like this bot but a lot more developed)',
+	description: 'Sends the invite link for Octo (a discord bot like this bot but a lot more developed)  (Custom Command)',
 	execute(message) {
 		message.channel.send(`https://www.octodiscord.com/invite.html`);
 	},
