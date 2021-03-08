@@ -1,0 +1,7 @@
+module.exports = {
+	name: 'Example',
+	description: 'Information about command',
+	execute(message) {
+		message.channel.send(`Put what you want the bot to reply with.`);
+	},
+};

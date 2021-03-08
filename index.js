@@ -13,8 +13,8 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-	console.log('Ready!');
-	client.user.setActivity("Playing j help");
+	console.log('Bot is now online!');
+	client.user.setActivity("Playing update time");
 	// If you want to change what the bot is playing replace the words under client.user.setActivity
 });
 
@@ -30,8 +30,10 @@ client.on('message', message => {
 		client.commands.get(command).execute(message, args);
 	} catch (error) {
 		console.error(error);
-		message.reply('I ran into a problem while trying to run this command. Please report the issue in the github!');
+		message.reply('I ran into a problem while trying to run this command. Please report the issue in the github providing as many details as possible!');
 	}
 });
 
 client.login(token);
+
+// I do NOT suggest changing the information above unless you are editing the boy activity because if the index.js breaks the bot will not be able to function.
